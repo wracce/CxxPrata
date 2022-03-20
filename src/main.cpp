@@ -12,7 +12,8 @@ int main()
 	//unit2::ex4();
 	//std::cout << "Enter a Celsius value: "; std::cin >> t;
 	//std::cout << t << " degrees Celsius is " << unit2::ex5(t) << " degrees Fahrenheit\n";
-	unit3::ex1();
+	//unit3::ex1();
+	unit3::ex2();
 
 
 	system("pause");
