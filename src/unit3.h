@@ -22,4 +22,16 @@ namespace unit3
 		cout << "Your BMI is " << w/(h*h) << endl;
 
 	}
+
+	void ex3()
+	{
+		double deg, min, sec, toDeg;
+		cout << "Enter a Latitude in degrees, minutes, and seconds:\n";
+		cout << "First, enter the degrees: "; cin >> deg;
+		cout << "Next, enter the minutes of arc: "; cin >> min;
+		cout << "Finally, enter the seconds of arc: "; cin >> sec;
+		toDeg = deg + (min+sec/60 )/ 60;
+		cout << deg <<" degrees, " << min << " minutes, " << sec << " seconds = " << toDeg << " degrees";
+
+	}
 }
